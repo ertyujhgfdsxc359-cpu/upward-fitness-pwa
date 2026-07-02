@@ -1,4 +1,4 @@
-const CACHE_NAME = 'upward-fitness-v1';
+const CACHE_NAME = 'upward-fitness-v1.1.0';
 const APP_SHELL = [
   './',
   './index.html',
@@ -6,7 +6,10 @@ const APP_SHELL = [
   './icon-192.png',
   './icon-512.png',
   './icon-maskable-512.png',
-  './apple-touch-icon.png'
+  './apple-touch-icon.png',
+  './assets/status-piplup-hd.png',
+  './assets/status-pikachu-hd.png',
+  './assets/status-snorlax-hd.png'
 ];
 
 self.addEventListener('install', event => {

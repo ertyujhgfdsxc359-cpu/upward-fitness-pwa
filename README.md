@@ -15,3 +15,7 @@ PWA 的离线缓存需要通过 `http://localhost` 或 HTTPS 访问。直接双�
 ## 发布
 
 仓库可以直接通过 GitHub Pages 发布，入口文件为根目录的 `index.html`。
+
+## 版本管理
+
+正式版本使用 `v主版本.次版本.修订版本` 标签，并在 [CHANGELOG.md](./CHANGELOG.md) 中记录变化。GitHub Pages 始终发布 `main` 分支；需要回退时，可从对应版本标签恢复后重新发布。
